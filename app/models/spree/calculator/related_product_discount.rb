@@ -1,5 +1,5 @@
 module Spree
-  class Calculator::RelatedProductDiscount < Spree::Calculator
+  class Spree::Calculator::RelatedProductDiscount < Spree::Calculator
     def self.description
       Spree.t(:related_product_discount)
     end
